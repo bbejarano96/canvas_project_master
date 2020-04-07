@@ -1,0 +1,92 @@
+Bryan Bejarano
+Week #7 Part 2
+
+----------------------------------------------------------------------
+
+1. 
+-The first who has introduced canvas was Apple for use in their Mac OS X WebKit in 2004.
+
+2. 
+-The canvas tag and element are an HTML5 element which can be used to draw graphics using JavaScript. 
+-Two-dimensional graphics
+
+3. 
+-“<canvas></canvas>”, added to the index.html file.
+
+4. 
+-Width and Height attributes
+
+5. 
+-The default canvas size is 300w x 150h.
+
+6. 
+-Nothing will render to the page.
+
+7. 
+-It would only render 300w x 150h.
+
+8. 
+-Create a context. Providing the drawing interface. 
+
+9. 
+-The 2 main drawing styles are “2d” and “webgl”. 
+-“2d” two-dimensional graphics 
+-“webgl” three-dimensional graphics used through the OpenGL interface.
+
+10. 
+-HTL5 built-in method .getContext()
+    const ctx = canvas.getContext("2d")
+;
+
+11.
+-Rectangles and paths.
+
+12. 
+-All other shapes are created by combining one or more paths. Built in the canvas path functions help the user create more complex shapes.
+
+13. 
+-clearRect()
+-fillRect(),
+-strokeRect()
+
+clearRect() parameters:
+    . x: the x-axis coordinates of the rectangle
+    . y: the y-axis coordinates of the rectangle
+    . width: 
+the width of the rectangle
+ + value right
+ - values left
+    .height: 
+the height of the rectangle 
++ values down 
+- values up
+
+fillRect() parameters:
+    . x: the x-axis coordinates the upper left of the rectangle.
+    . y: the y-axis coordinates the upper left of the rectangle.
+    . width 
+-the rectangle's width
+    . height
+- the rectangle's height
+
+strokeRect() parameters:
+. x: 
+the x-axis coordinates of the rectangle's starting point
+    . y:
+ the y-axis coordinates of the rectangle's starting point
+    . width:
+ the width of the rectangle. 
++ value right
+- values left
+    .height
+- the height of the rectangle
++ values down
+- values up
+
+14. 
+-A path in canvas list of points connected by segment of lines.
+
+15. 
+-Draw a path.
+-Use drawing commands to draw into the path.
+-Use stroke ( ) or fill ( ) to the path to render the drawing.
